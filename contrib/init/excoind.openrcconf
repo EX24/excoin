@@ -1,0 +1,26 @@
+# /etc/conf.d/excoind: config file for /etc/init.d/excoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/excoin/excoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/excoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/excoind.pid"
+
+# Where to write excoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/excoind"
+
+# User and group to own excoind process
+#BITCOIND_USER="excoin"
+#BITCOIND_GROUP="excoin"
+
+# Path to excoind executable
+#BITCOIND_BIN="/usr/bin/excoind"
+
+# Nice value to run excoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

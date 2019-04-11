@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=EXE
+Comment=EXE P2P Cryptocurrency
+Comment[fr]=EXE, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EXE, eşten eşe kriptografik sanal para birimi
+Exec=excoin-qt %u
+Terminal=false
+Type=Application
+Icon=excoin128
+MimeType=x-scheme-handler/excoin;
+Categories=Office;Finance;
